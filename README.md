@@ -1,4 +1,5 @@
 # JBomber V1.0
+Sms Bomber for Windows,Linux and Mac bases on Java.
 
 
 ## Note
@@ -12,6 +13,7 @@
 * Lots of sms APIs.
 * Only indian contacts can be bombed.
 * Works on windows , linux and Mac.
+* Max-msg limit is set to 99 at a time.
 
 ## License
 This project is licenced under GNU public License.
