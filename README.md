@@ -1,5 +1,5 @@
 # JBomber V1.0
-Sms Bomber for Windows,Linux and Mac bases on Java.
+Sms Bomber for Windows,Linux and Mac based on Java.
 
 
 ## Note
@@ -23,7 +23,7 @@ This project is licenced under GNU public License.
 * check out Usage.txt file.
 
 
-## contact Me
+## Contact Me
   Feel free to contact
   ``` 
   mail: mrkhanboyy@gmail.com
